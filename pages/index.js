@@ -9,6 +9,17 @@ export default function Home() {
         <title>Augy Studios</title>
         <meta name="description" content="Augy Studios" />
         <link rel="icon" href="/favicon.ico" />
+        {/* Google Analytics & Google Ads */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92194574-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-92194574-1');
+        </script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9715826188316382"
+        crossorigin="anonymous"></script>
       </Head>
 
       <main className={styles.main}>
